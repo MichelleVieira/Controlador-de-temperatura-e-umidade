@@ -1,0 +1,52 @@
+table{
+	margin-left: 30px;
+	margin-right: 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+
+th{
+	background-color: #fcba7a;
+}
+
+td,th{
+	border: thin dotted gray; 
+	padding: 12px;
+	text-align: center; 
+}
+
+td{
+	background-color: #998823;
+}
+
+cellcolor{
+	background-color: #fcba7a;
+}
+
+caption{
+	font-style: italic;
+    padding-top: 8px; 
+}
+
+table.comBordas {
+    border: 1px solid blue;
+}
+ 
+table.comBordas td {
+    border: 1px solid black;
+}
+
+table.comBordaSimples {
+    border-collapse: collapse;
+    background: #FFFFF0;
+}
+ 
+table.comBordaSimples td {
+    border: 1px solid black;
+}
+ 
+table.comBordaSimples th {
+    border: 1px solid black;
+    background: #F0FFF0;
+}

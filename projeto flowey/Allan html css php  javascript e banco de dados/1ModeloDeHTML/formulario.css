@@ -1,0 +1,68 @@
+body{
+	background-color: #998811;
+	height: 100%
+}
+
+/* Inserindo um título para todo o formulário */
+#cabecalho{
+	width: auto;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	color: white;
+	border: 9px solid white;
+}
+
+/* Trabalhando com formulário */
+#meuForm{
+	position: relative;
+	top: 30px;
+	left: 480px;
+	border: 20px solid white;
+	padding: 20px;
+	padding-top: 0px;
+	background-color: #998899;
+	max-width: 300px;
+}
+
+/* Botão */
+#button1, #button2{
+	color: #990088;
+	background-color: #999999;
+	border: 2px solid white;
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.priParte{
+	text-align: left;	
+}
+
+/* Fim do trabalho com formulário */
+#corpo{
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+
+#rodape{
+	width: auto;
+	height: 3em;
+	text-align: center;
+	color: white;
+	border: 9px solid white;
+	background-color: green;
+	position: absolute;		
+	left: 0px;
+	right: 0px;	
+	bottom: -30em;
+	margin-top: 0px;
+}

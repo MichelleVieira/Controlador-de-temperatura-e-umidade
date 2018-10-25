@@ -1,0 +1,102 @@
+/*
+Arquivo responsável por efetuar a formatação de todas as páginas HTML
+a elas ligadas.  
+*/ 
+
+/*Responsável pela formatação da página inteira*/
+body{
+	background-color: #ffffff;
+}
+
+/* Tag responsável pela formatação do cabeçalho na página */ 
+#cabecalho{
+	/*Atributos de background - Referência: https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-position*/
+	background-image: url("../IMAGENS/informationTechnology.jpg");
+	background-repeat: no-repeat;
+	
+	/*background-attachment: fixed; Não permite scroll*/
+	background-size: cover; /* Propriedade que adapta a imagem ao tamanho */ 
+	background-position: RIGHT CENTER; /* X  Y */
+	
+	width: auto; /*Definindo o tamanho em relação a sua largura*/
+	height: 300px; /*Definindo o tamanho em relação a sua altura*/
+	
+	border: 10px ridge green; /*Formatação de borda - http://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-bordas.php*/ 
+	
+	-webkit-border-radius: 8px; /*Kit para deixar bordas arredondadas*/
+	
+	margin-left: -8px; /*Estabele as margens em relação ao navegador*/
+	margin-right: -8px;
+	margin-top: -8px;
+	
+	z-index: -2;
+}
+
+/* Tag responsável por formatar o rodapé*/
+#rodape{
+	-webkit-border-radius: 0px; /*Kit para deixar bordas arredondadas*/
+	width: auto;
+	height: 100px;
+	
+	background-color: #333;
+	
+	position: relative;
+	margin: -8px;
+	z-index: -3; /*Determina o objeto que vem primeiro */
+}
+
+/* Tag responsável por formatar o corpo da página*/
+#conteudo{
+	-webkit-border-radius: 0px; /*Kit para deixar bordas arredondadas*/
+	width: auto;
+	height: 1000px; /*Auto ajuste -> 100%*/
+	margin-top: 0px;
+	/*z-index: -1;*/
+	margin: -8px;
+	background-color: #778800;
+	position: relative;
+}
+
+/* Formatação da área de logotipo da página */
+#logo{
+	margin-top: 50px;
+	width: 130px;
+	height: 180px;
+}
+
+/*Responsável pela div de logotipo*/
+#logotipo{
+	width: 130px;
+	height: 180px;
+}
+
+/* TAG de parágrafo que está na DIV logotipo */
+h1{
+	text-align: center;
+	font-family: arial; 
+	font-style: italic; /* none, italic, oblique */
+	font-weight: bold; /* normal|bold|bolder|lighter|number|initial|inherit */
+	text-shadow: 3px 3px 3px red; /*X Y tamanho cor*/
+}
+
+#dadosCadastrais{
+	height: 500px;
+	width: 280px;
+	background-color: #998855;
+	margin-left: 500px;
+}
+
+#dadosPagamento{
+	height: 100px;
+	width: 280px;
+	margin-left: 500px;
+}
+
+#botao{
+	margin-left: 90px;
+}
+
+
+
+
+

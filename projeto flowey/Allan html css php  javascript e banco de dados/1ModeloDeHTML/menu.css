@@ -1,0 +1,71 @@
+﻿*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 30px;
+}
+
+.menu{
+	list-style:none; 
+	border:1px solid #c0c0c0; 
+	float:left; 
+}
+
+.menu li{
+	position:relative; 
+	float:left; 
+	border-right:1px solid #c0c0c0; 
+}
+
+.menu li a{
+	color:#333; 
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:block;
+}
+
+.menu li a:hover{
+	
+	background:#333; 
+	color:#fff; 
+	
+	/* -moz-box-shadow:0px 0px 10px 0px; Atributos de Sombreamento 
+			DesHorizontal DesVertical Esfumaçado CorDaSombra, código 		para firefox */
+	
+	-webkit-box-shadow:0px 10px 10px 0 #ccc; /*código para navegadores webKit 		Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+*/
+	
+	text-shadow:0px 0px 5px #fff; /* Sombreamento no texto */
+
+	box-shadow:0px 0px 5px lime; /* sombreamento na caixa - Todos os nav.*/ 
+}
+
+.menu li  ul{
+	position:absolute; 
+	top:45px; 
+	left:0px;
+	background-color:#fff; 
+	display:none;
+	
+}	
+
+/* Determina o menu em linhas */
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+}
+
+/* Constroe o menu */
+.menu li ul li{
+	border:1px solid #c0c0c0; 
+	display:block; 
+	width:238px;
+}
+
+/* 
+http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx
+ 
+https://css-tricks.com/almanac/properties/b/box-shadow/
+
+*/

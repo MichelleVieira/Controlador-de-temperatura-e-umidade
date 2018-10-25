@@ -1,0 +1,14 @@
+p{ color: blue;
+   border: 20px solid gray;
+}
+
+h1, h2{
+	font-family: sans-serif;
+	background-color: red;
+	border-bottom: 12px solid black;
+}
+
+body{
+	background-color: #fff005;
+}
+			
